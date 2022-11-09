@@ -1,5 +1,5 @@
 let welcomeElement = document.getElementById("welcome-element");
-let name1 = "Julie";
+let name1 = prompt("What is your name?");
 let greeting = "Good morning, ";
 welcomeElement.textContent = greeting + name1;
 welcomeElement.textContent += "!";
