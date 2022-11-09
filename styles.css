@@ -1,0 +1,68 @@
+
+:root {
+    --light-pink: #FFD6EC;
+    --medium-pink: #FFA1CF;
+    --dark-pink: #FF74B1;
+    --sea-green: #A7FFE4;
+}
+
+body {
+    background-color: white;
+    color: var(--dark-pink);
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(https://img.freepik.com/free-photo/pink-purple-flowers_1203-2191.jpg?w=1800&t=st=1667962107~exp=1667962707~hmac=6d319d5fd1b2fa49101bec3c7c708308503418ed1d97a2a1f4605ac59772d155);
+ 
+
+}
+
+.content {
+    max-width: 600px;
+    width: 80%;
+    background-color: var(--sea-green);
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    margin: 40px auto;
+    box-shadow: 5px 10px 8px 10px #bcbcbc
+}
+
+.welcome {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+.counter-buttons {
+    background-color: var(--light-pink);
+    border-radius: 6px;
+    max-width: 70%;
+    padding: 10px;
+    margin: auto;
+
+
+}
+
+button {
+    background-color: var(--medium-pink);
+    border-style: inset;
+    border-color: var(--dark-pink);
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition: all 0.5s;
+    cursor: pointer;
+
+    margin: 5px 10px 20px 10px;
+}
+
+button:hover {
+    color: var(--light-pink);
+}
+
+.entry-log {
+    font-weight: bold;
+}
